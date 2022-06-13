@@ -8,10 +8,10 @@ spec:
   chart:
     spec:
       chart: sample-python-app
-      reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
         name: regcontainer0test
+      version: 0.0.2
   interval: 2m0s
   targetNamespace: test
 
