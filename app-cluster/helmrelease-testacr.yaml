@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: regcontainer0test
-      version: 0.0.2
+      version: 0.1.0
   interval: 2m0s
   targetNamespace: test
 
