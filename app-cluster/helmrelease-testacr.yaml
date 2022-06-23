@@ -12,8 +12,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: regcontainer0test
-        version: 0.0.1
   interval: 2m0s
-  releaseName: testacr
   targetNamespace: test
 
