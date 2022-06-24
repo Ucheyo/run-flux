@@ -2,7 +2,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: mytestacr
+  name: testacr
   namespace: flux-system
 spec:
   chart:
@@ -11,8 +11,8 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: regcontainer0test
-      version: 0.0.3
+        name: shinacr
+      version: 0.0.1
   interval: 2m0s
   targetNamespace: test
 

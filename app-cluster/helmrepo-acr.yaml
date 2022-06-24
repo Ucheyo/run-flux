@@ -2,11 +2,11 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: regcontainer0test
+  name: shinacr
   namespace: flux-system
 spec:
   interval: 1m0s
   secretRef:
     name: acr
-  url: https://regcontainer0test.azurecr.io/helm/v1/repo/
+  url: https://shinacr.azurecr.io/helm/v1/repo/
 
