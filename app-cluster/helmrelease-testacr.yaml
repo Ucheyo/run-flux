@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: shinacr
-      version: 0.0.1
+      version: 0.1.0
   interval: 2m0s
   targetNamespace: test
 
